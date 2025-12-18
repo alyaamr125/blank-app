@@ -31,7 +31,7 @@ Sebagai pengguna, saya dapat:
    - Status Saat Ini laptop dipinjam
   
 ### 4. Diagram UML
-
+```
       %% graph LR
     %% Aktor (User) dilambangkan dengan lingkaran ganda
     User((User))
