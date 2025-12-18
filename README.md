@@ -32,4 +32,38 @@ Sebagai pengguna, saya dapat:
   
 ### 4. Diagram UML
 
+      %% graph LR
+    %% Aktor (User) dilambangkan dengan lingkaran ganda
+    User((User))
+
+    %% Kotak Sistem Aplikasi
+    subgraph Aplikasi [Aplikasi Borrow My Laptop]
+        direction TB
+        UC1(Lihat Dashboard)
+        UC2(Peminjaman)
+        UC3(Pengembalian)
+        UC4(Laptop Dipinjam)
+        UC5(Riwayat)
+    end
+
+    %% Garis Hubung
+    User --> UC1
+    User --> UC2
+    User --> UC3
+    User --> UC4
+    User --> UC5
+
+
 ### 5. Maket
+Tampilan antarmuka (UI) pada aplikasi Borrow My Laptop
+1. Tampilan Input Data Peminjaman
+<img width="1602" height="794" alt="image" src="https://github.com/user-attachments/assets/6fe778e1-4378-4841-80db-883e34c95a78" />
+
+2. Tampilan Pengembalian
+<img width="1606" height="800" alt="image" src="https://github.com/user-attachments/assets/9912f504-0c74-47c0-854c-efba6f82d964" />
+
+3. Tampilan Laptop Dipinjam
+<img width="1607" height="800" alt="image" src="https://github.com/user-attachments/assets/1e6deb91-99ed-4a5f-926b-f289dbbbb39a" />
+
+4. Tampilan Riwayat Peminjaman Laptop
+<img width="1613" height="792" alt="image" src="https://github.com/user-attachments/assets/7184e7f8-6c35-4307-860c-d847043b042b" />
